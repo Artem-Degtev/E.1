@@ -1,0 +1,51 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    text-align: center;
+    display: table;
+    float: left;
+    padding: 0px 40px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.header{
+    height: 100%;
+    width: 94%;
+    padding: 50px 50px;
+    background-color: #101010;
+    display: inline-block;
+
+}
+
+.content{
+    height: 100%;
+    display: table;
+}
+
+.content p{
+    height: 100%;
+    display: table;
+    float: right;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
